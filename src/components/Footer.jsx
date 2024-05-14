@@ -3,9 +3,13 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='mx-auto max-w-7xl'>
-        <h1 className='font-GoogleSansMedium'>Footer Here!</h1>
-    </div>
+    <React.Fragment>
+      <div className="footer">
+          <div className='mx-auto max-w-7xl'>
+              <h1 className='footer-copyright'>Copyright ©2024 gh-247.com All Rights Reserved</h1>
+          </div>
+      </div>
+    </React.Fragment>
   )
 }
 

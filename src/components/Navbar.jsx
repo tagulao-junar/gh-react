@@ -7,7 +7,7 @@ import logo from '../assets/images/logo.png';
 const Navbar = () => {
   return (
     <nav className='border-indigo-500 test'>
-		<div className='mx-auto max-w-7xl flex justify-between items-center'>
+		<div className='mx-auto max-w-6xl flex justify-between items-center'>
 		
 			<img src={logo} alt="Logo" />
 			<div className='space-x-5'>

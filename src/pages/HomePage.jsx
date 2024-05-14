@@ -1,17 +1,19 @@
 import React from 'react'
 import Banner from '../components/Banner'
 import TopDestinations from '../components/TopDestinations'
+import SimpleSlider from '../components/SimpleSlider'
 
 const HomePage = () => {
-
-	const test = 'Bewa';
 
 	return (
 		<React.Fragment>
 			<Banner/>
-			<h1>Test Only {test}</h1>
-			<section className='mx-auto max-w-7xl mt-20'>
+	
+			<section className='mx-auto max-w-6xl mt-20'>
+				<h1 className='destination-header'>Visit Popular Destinations in Thailand</h1>
+
 				<TopDestinations />
+				{/* <SimpleSlider /> */}
 			</section>
 		</React.Fragment>
 	)

@@ -5,6 +5,11 @@
 
 
 
+
+
+
+
+
 @font-face {font-family: "Google Sans Regular";
     src: url("./assets/fonts/google_sans_regular.eot"); /* IE9*/
     src: url("./assets/fonts/google_sans_regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
@@ -72,3 +77,76 @@
     text-align: center;
     background: #eeec76;
 }
+
+/* .topbar-item {
+    font-size: 14px;
+    color: #fff;
+} */
+
+.nav-email {
+    background: #f8c24d;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 20px;
+    font-style: italic;
+}
+
+.destination-header {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 70px;
+    color: #5b5b5b;
+    font-family: "Google Sans Regular";
+}
+
+.top-destination {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background: #929292;
+    padding: 5px 0;
+}
+
+.footer-copyright {
+    font-family: "Google Sans Regular";
+    font-size: 14px;
+    font-style: italic;
+    color: #fff;
+}
+
+.slick-prev:before, .slick-next:before {
+    color: #000;
+}
+
+
+.slick-slide div {
+    margin: 0 1px;
+    /* background: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.slick-prev {
+    left: 10px;
+    z-index: 1;
+}
+
+.slick-next {
+    right: 10px;
+    z-index: 1;
+}
+
+
+
+
