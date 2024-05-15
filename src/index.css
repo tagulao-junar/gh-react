@@ -57,9 +57,26 @@
     box-shadow: 0 3000px rgb(26 46 55 / 30%) inset;
 }
 
+.banner-text {
+    text-align: center;
+}
 
+.banner-text p {
+    /* font-family: "Google Sans Regular"; */
+    /* font-family: "Martian Mono", monospace; */
+    font-family: "Love Ya Like A Sister", cursive;
+    font-size: 30px;
+    color: #efff00;
+    font-style: italic;
+}
 
-
+.banner-text h1 {
+    font-family: "Google Sans Bold";
+    font-size: 70px;
+    color: #fff;
+    line-height: 1;
+    letter-spacing: 2px;
+}
 
 
 
@@ -68,7 +85,7 @@
 }
 
 .banner-header-text {
-    font-size: 60px;
+    font-size: 40px;
     color: #fff;
     text-transform: uppercase;
 }
@@ -128,7 +145,7 @@
 
 
 .slick-slide div {
-    margin: 0 1px;
+    margin: 0 2px;
     /* background: red; */
     display: flex;
     flex-direction: column;

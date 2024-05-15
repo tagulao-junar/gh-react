@@ -9,11 +9,10 @@ const HomePage = () => {
 		<React.Fragment>
 			<Banner/>
 	
-			<section className='mx-auto max-w-6xl mt-20'>
-				<h1 className='destination-header'>Visit Popular Destinations in Thailand</h1>
+			<section className='mx-auto max-w-6xl mt-20 mb-28'>
+				<h1 className='destination-header'>Thailand's Popular Destinations</h1>
 
 				<TopDestinations />
-				{/* <SimpleSlider /> */}
 			</section>
 		</React.Fragment>
 	)

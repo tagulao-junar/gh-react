@@ -10,7 +10,7 @@ const TopDestinations = () => {
         dots: false,
         infinite: true,
         speed: 500,
-        slidesToShow: 3,
+        slidesToShow: 4,
         slidesToScroll: 1,
         initialSlide: 0,
         responsive: [
@@ -20,7 +20,7 @@ const TopDestinations = () => {
                 slidesToShow: 3,
                 slidesToScroll: 3,
                 infinite: true,
-                dots: true
+                dots: false
             }
             },
             {
@@ -46,8 +46,8 @@ const TopDestinations = () => {
             {destinations.map((d) => (
                 <div className='slider-containers'>
                     <div key={d.id} className='bg-white h-[300px] '>
-                        <p>{d.destination}</p>
                         <img src={d.image} alt="" />
+                        <p>{d.destination}</p>
                     </div>
                 </div>
             ))}
@@ -61,27 +61,27 @@ const destinations = [
     {   
         id: 1,
         destination: 'Bangkok',
-        image: 'destinations/bangkok.jpg',
+        image: 'destinations/destination-bangkok.png',
     },
     {   
         id: 2,
         destination: 'Pattaya',
-        image: 'destinations/image-1.jpg'
+        image: 'destinations/destination-pattaya.png'
     },
     {   
         id: 3,
         destination: 'Phuket',
-        image: 'destinations/image-1.jpg'
+        image: 'destinations/destination-phuket.png'
     },
     {   
         id: 4,
         destination: 'Chiang Mai',
-        image: 'destinations/image-1.jpg'
+        image: 'destinations/destination-chiangmai.png'
     },
     {   
         id: 5,
         destination: 'Chiang Rai',
-        image: 'destinations/image-1.jpg'
+        image: 'destinations/destination-chiangrai.png'
     }
 ]
 
