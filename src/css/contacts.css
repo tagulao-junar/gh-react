@@ -1,0 +1,43 @@
+.contacts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 100px;
+}
+
+
+.contact-left-col {
+    background: #f2f2f2;
+    padding: 30px;
+}
+
+.contact-left-col p {
+    font-size: 16px;
+    font-family: "Google Sans Regular";
+}
+
+.contact-right-col {
+    background: #c9c9c9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-right-col img {
+    width: 150px;
+    height: auto;
+}
+
+.whatsapp-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #25d366;
+    color: #fff;
+    width: 200px;
+    padding: 10px;
+    border-radius: 22px;
+}
+
+.whatsapp-btn img {
+    margin-right: 15px;
+}

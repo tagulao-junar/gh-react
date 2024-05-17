@@ -18,7 +18,7 @@ const TopDestinations = () => {
             breakpoint: 1024,
             settings: {
                 slidesToShow: 3,
-                slidesToScroll: 3,
+                slidesToScroll: 1,
                 infinite: true,
                 dots: false
             }
@@ -27,7 +27,7 @@ const TopDestinations = () => {
             breakpoint: 600,
             settings: {
                 slidesToShow: 2,
-                slidesToScroll: 2,
+                slidesToScroll: 1,
                 initialSlide: 2
             }
             },
@@ -42,16 +42,20 @@ const TopDestinations = () => {
     };
     return (
 
-        <Slider {...settings}>
-            {destinations.map((d) => (
-                <div className='slider-containers'>
-                    <div key={d.id} className='bg-white h-[300px] '>
+        <section>
+            
+            <h1 className='destination-header'>Thailand's Popular Destinations</h1>
+
+            <Slider {...settings}>
+                {destinations.map((d) => (
+                    <div key={d.id} className='destination-card'>
                         <img src={d.image} alt="" />
                         <p>{d.destination}</p>
                     </div>
-                </div>
-            ))}
-        </Slider>
+                ))}
+            </Slider>
+
+        </section>
     )
 }
 
